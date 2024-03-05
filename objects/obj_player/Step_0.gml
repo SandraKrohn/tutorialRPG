@@ -1,3 +1,4 @@
+// movement
 right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
@@ -45,13 +46,11 @@ if (place_meeting(x, y + yspd, obj_wall)) == true {
 	yspd = 0;
 }
 
-// moving around
 x += xspd;
 y += yspd;
 
 
-
-// animation
+// no animation when idle
 if xspd == 0 && yspd == 0 {
 	image_index = 0;
 }

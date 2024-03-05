@@ -17,11 +17,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"spr_player_up","order":5,"path":"sprites/spr_player_up/spr_player_up.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"spr_house_tiles","order":9,"path":"sprites/spr_house_tiles/spr_house_tiles.yy",},
+    {"name":"spr_player_down","order":8,"path":"sprites/spr_player_down/spr_player_down.yy",},
     {"name":"spr_player_left","order":6,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_player_right","order":7,"path":"sprites/spr_player_right/spr_player_right.yy",},
-    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
-    {"name":"spr_player_down","order":8,"path":"sprites/spr_player_down/spr_player_down.yy",},
+    {"name":"spr_player_up","order":5,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_game_tiles","order":10,"path":"sprites/spr_game_tiles/spr_game_tiles.yy",},
+    {"name":"ts_game_tiles","order":1,"path":"tilesets/ts_game_tiles/ts_game_tiles.yy",},
   ],
 }
