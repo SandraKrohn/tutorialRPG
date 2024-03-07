@@ -1,11 +1,17 @@
-// movement
 right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 
+// getting x and y speed
 xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
+
+// pause (preventing player movement during room transition)
+if instance_exists(obj_pauser) {
+	xspd = 0;
+	yspd = 0;
+}
 
 // set sprite
 mask_index = sprite[DOWN];
@@ -46,11 +52,14 @@ if (place_meeting(x, y + yspd, obj_wall)) == true {
 	yspd = 0;
 }
 
+// moving player
 x += xspd;
 y += yspd;
-
 
 // no animation when idle
 if xspd == 0 && yspd == 0 {
 	image_index = 0;
 }
+
+// depth (not needed for a player sprite this small, but whatever, lol
+depth = -bbox_bottom;
