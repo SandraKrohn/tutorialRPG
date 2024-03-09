@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dresser_small",
+  "%Name":"obj_house_outside",
   "eventList":[],
   "managed":true,
-  "name":"obj_dresser_small",
+  "name":"obj_house_outside",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dresser_small",
-    "path":"sprites/spr_dresser_small/spr_dresser_small.yy",
+    "name":"spr_house_outside",
+    "path":"sprites/spr_house_outside/spr_house_outside.yy",
   },
   "spriteMaskId":null,
   "visible":true,
