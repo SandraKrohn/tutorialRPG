@@ -1,4 +1,2 @@
 TO DO:
 
-- have camera follow player outside
-- can't go back inside, lol
