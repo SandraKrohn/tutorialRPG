@@ -1,2 +1,4 @@
 TO DO:
 
+- draw bobber on tile in front of player when in fishing state
+- draw_line() to connect bobber and player / fishing rod
